@@ -69,7 +69,7 @@ export default function Home2() {
           <Section className="col-lg-3 col-6">
             <Section className="cs-light_bg text-center cs-radius_10">
               <Spacing lg="60" md="60" />
-              <FunFact number="438" title="Total Items" />
+              <FunFact number="448" title="Total Items" />
               <Spacing lg="60" md="60" />
             </Section>
             <Spacing lg="25" md="25" />
