@@ -37,9 +37,9 @@ export default function Hero({title, mintNumber, mintMax, mintPrice, mintDeathLi
           </Section>
           <Section className="cs-hero_img">
             <img src={heroImageUrl} alt="Hero" />
-            <Section className="cs-hero_img_sm">
+            {/* <Section className="cs-hero_img_sm">
               <img src={animatedUrl} alt="Hero" />
-            </Section>
+            </Section> */}
           </Section>
         </Section>
         {bubble && (

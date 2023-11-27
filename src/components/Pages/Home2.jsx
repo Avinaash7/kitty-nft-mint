@@ -56,9 +56,9 @@ export default function Home2() {
         mintMax='3000'
         mintPrice='0.02'
         mintDeathLine='22 July' 
-        bgUrl='/images/hero_img_3.jpeg'
-        heroImageUrl='/images/hero_img_edited.png' 
-        animatedUrl='/images/hero_img_sm.png' 
+        bgUrl='/images/main_bg.png'
+        heroImageUrl='/images/herocat5.png' 
+        // animatedUrl='/images/hero_img_sm.png' 
         variant='cs-type1'
 
         bubble

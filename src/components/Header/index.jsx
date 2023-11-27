@@ -31,12 +31,12 @@ export default function Header() {
                 <Section className="cs-main_header_left">
                   <Link to="/" className="cs-site_branding cs-accent_color">
                     <img
-                      src="/images/logo_black.svg"
+                      src="/images/logo.png"
                       alt="Logo"
                       className="cs-hide_dark"
                     />
                     <img
-                      src="/images/logo_white.svg"
+                      src="/images/logo.png"
                       alt="Logo"
                       className="cs-hide_white"
                     />
@@ -176,12 +176,14 @@ export default function Header() {
                 <Section className="cs-main_header_left">
                   <Link to="/" className="cs-site_branding cs-accent_color">
                     <img
-                      src="/images/logo_black.svg"
+                      src="/images/logo.png"
                       alt="Logo"
+                     
                       className="cs-hide_dark"
                     />
                     <img
-                      src="/images/logo_white.svg"
+                    
+                      src="/images/logo.png"
                       alt="Logo"
                       className="cs-hide_white"
                     />

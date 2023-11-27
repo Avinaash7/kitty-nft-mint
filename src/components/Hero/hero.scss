@@ -11,6 +11,7 @@
     color: #fff;
   }
   .cs-hero_bg {
+    margin-top: -350px;
     position: absolute;
     height: 100%;
     width: 100%;
@@ -36,22 +37,22 @@
   }
   .cs-hero_img {
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%) translateX(10%);
-    right: 14%;
+    right: 7%;
     z-index: 3;
   }
   .cs-hero_text {
     position: relative;
     z-index: 4;
   }
-  .cs-hero_img_sm {
-    position: absolute;
-    top: 23%;
-    right: 0;
-    z-index: 1;
-    animation: rotate360 30s linear infinite;
-  }
+  // .cs-hero_img_sm {
+  //   position: absolute;
+  //   top: 23%;
+  //   right: 0;
+  //   z-index: 1;
+  //   animation: rotate360 30s linear infinite;
+  // }
   .cs-hero_title {
     color: #fff;
     margin-bottom: 30px;
