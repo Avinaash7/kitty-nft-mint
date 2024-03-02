@@ -36,7 +36,9 @@ export default function Footer() {
         </Section>
         <Section className="cs-height_45 cs-height_lg_25" />
         <Section className="container">
-          <Section className="cs-copyright text-center">Copyright © 2022. All Rights Reserved by <span className="cs-primary_font cs-primary_color">Kitty Dinger</span></Section>
+          <Section className="cs-copyright text-center">Copyright © 2022. All Rights Reserved by <span className="cs-primary_font cs-primary_color">Kitty Dinger</span>
+          <br></br>Made with ❤️ by <a href="https://gweiland.com" target="_blank">Gweiland</a></Section>
+
         </Section>
         <Section className="cs-height_25 cs-height_lg_25" />
       </Section>
