@@ -8,35 +8,36 @@ export default function RoadmapSlider() {
   const data = [
     {
       phase:'Phase 1', 
-      title:'Q1 2022',
+      title:'Q1 2024',
       subtitle:
       `
-      • NFT Launch
-      • Chainlink integration
-      • KittUp Wallet Audit
+      • KittPad V2
+      • NFT Mint Update
+      • New KittPad Airdrop
       `,
     },{
       phase:'Phase 2', 
-      title:'Q2 2022',
+      title:'Q2 2024',
       subtitle:`
+      • KittUp Wallet Browser Extension
       • Marketing Campaign
-      • Tier 1-2 Cex listings
-      • Partnerships`,
+      • New PartnerShip`
+      ,
     },{
       phase:'Phase 3', 
-      title:'Q3 2022',
+      title:'Q3 2024',
       subtitle:`
-      • Kittmanji Tournament
-      • Staking USDT Distribution
-      • Times Square Billboard
+      • New KittPad Incubation
+      • KittUp V1 Mobileapp
+      • New KittPad Airdrop
       `,
     },{
       phase:'Phase 4', 
-      title:'Q4 2022',
+      title:'Q4 2024',
       subtitle:`
-      • Wikipedia Page
-      • Kittchain (Layer 2 Blockchain)
-      • Global Outreach
+      • Marketing Campaign
+      • KittManji P2E
+      • KittPad Incubation
       `,
     },
   ]

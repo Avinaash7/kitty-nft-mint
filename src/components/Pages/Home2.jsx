@@ -30,7 +30,7 @@ export default function Home2() {
     },
     {
       question: 'How many NFT can I buy?',
-      answer: 'A wallet can hold a maximum of 12 NFTs'
+      answer: 'You can mint as many NFT\'s as you want'
     },
     {
       question: 'How happens after I mint?',
@@ -43,7 +43,6 @@ export default function Home2() {
   ]
   const { data, isError, isLoading } = useContractRead({
     address: '0x46084F00dD87B2f50c1E898399241E760D2284E3',
-
     abi: abi,
     functionName: "totalSupply",
   });
@@ -69,7 +68,7 @@ export default function Home2() {
           <Section className="col-lg-3 col-6">
             <Section className="cs-light_bg text-center cs-radius_10">
               <Spacing lg="60" md="60" />
-              <FunFact number="448" title="Total Items" />
+              <FunFact number={data.toString()} title="Total Items" />
               <Spacing lg="60" md="60" />
             </Section>
             <Spacing lg="25" md="25" />
@@ -203,7 +202,7 @@ export default function Home2() {
             <IconBox 
               variant='cs-type1 text-center' 
               title='Kittup Wallet' 
-              subtitle='With proper funding, KittUp wallet will be developed to integrate multiple addresses on many different blockchains.'
+              subtitle='KittUp Wallet is the Meow answer to the need for a secure, functional, multi-chain wallet. More and more chains will be integrated as development of the Meow ecosystem continues, as well as other features to earn passive income and manage your crypto. The KittUp wallet has already been created, tested, and is currently under processing for approval for iOS. '
 
             >
               <svg
@@ -229,7 +228,8 @@ export default function Home2() {
             <IconBox 
               variant='cs-type1 text-center' 
               title='Kitty Metaverse' 
-              subtitle='The Schrodinger P2E game will be a fun, relaxing, and lucrative way for the community to earn daily passive income.'
+              subtitle='The Meow team is already doing everything else - why not a P2E game too? Kittmanji is a 3D P2E online game that’s a fun and easy way for the community to earn passive income.
+              Link to the Test of the Game.   https://kittmanji.com/'
 
             >
               <svg

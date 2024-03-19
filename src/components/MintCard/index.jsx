@@ -23,7 +23,7 @@ export default function MintCard() {
     }
   };
   const handleIncrement = () => {
-    if (counter < 12) {
+    if (counter < 50) {
       setCounter(counter + 1);
     }
   };

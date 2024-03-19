@@ -14,25 +14,11 @@ export default function TeamSlider({sliderItemBg, sliderItemVariant}) {
     
     },
     {
-      src:'/images/Gnostics.png',
-      name:'The SchrodingerMan', 
-      twitterHref: 'https://theschrodinger.com/',
-      designation:'Co-founder, Solidity Dev',
-  
-    },
-    {
       src:'/images/Goran.png',
       name:'Goran', 
       designation:'Co-founder, Technical Advisor',
       twitterHref: 'https://twitter.com/Goranx10',
   
-    },
-    {
-      src:'/images/gonthier.png',
-      name:'Gonthier Mickael', 
-      twitterHref: 'https://twitter.com/MickaelGonthier',
-      designation:'Marketing Advisor',
-
     },
     {
       src:'/images/fudfighter.png',
